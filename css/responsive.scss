@@ -1,0 +1,426 @@
+@import 'css_default';
+@media (min-width: 576px) {
+    .no-flexbox .patner-content {
+        max-width: 90%;
+        margin: 0 auto;
+        display: inherit;
+        .content {
+            width: (100% / 5);
+            float: left;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .regnskapsfringtjenesterny-bg-3 {
+        background-position: 69% 71%, 57% 71%, right 50%;
+        background-size: 21%, 29%, 43% 61%;
+    }
+}
+
+@media (min-width: 992px) {
+    .regnskapsfringtjenesterny-bg-3 {
+        background-position: 61% 104%, 46% 102%, right 90%;
+        background-size: 24%, 31%, 50%;
+    }
+}
+
+@media (min-width:1200px) {
+    .regnskapsfringtjenesterny-bg-3 {
+        background-position: 56% 103%, 39% 104%, right 50%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-header {
+        float: left;
+        width: 22%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-right: 20px;
+        padding: 0;
+    }
+    .navbar-default .navbar-nav>li:last-child a {
+        margin-right: 0;
+    }
+    header .search-top {
+        padding: 0;
+        margin-left: 13px;
+        min-width: 139px;
+    }
+    .navbar-nav {
+        margin-top: 12px;
+    }
+    header .search-top {
+        margin-top: 5px;
+    }
+    .logo {
+        img {
+            width: 185px;
+            height: 50px;
+        }
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    header .search-top {
+        padding-left: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    header .search-top form {
+        left: -145px;
+    }
+}
+
+@media (max-width:1199px) {
+    .car-content .content {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width:991px) {
+    header .search-top {
+        text-align: right;
+        position: relative;
+        z-index: 99999;
+    }
+    header .search-top i {
+        margin-right: 15px;
+    }
+    header .search-top form {
+        left: auto;
+        right: 127px;
+        width: 200px;
+        top: 39px;
+        input {
+            width: 100%;
+        }
+    }
+    .footer-top .content p {
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .footer-top .content form {
+        width: 100%;
+    }
+    .widget {
+        margin-bottom: 30px;
+    }
+    .main-footer .widget1 p {
+        margin-bottom: 30px;
+    }
+    .main-footer .widget4 h3,
+    .main-footer .widget4 p,
+    .main-footer .widget4 .social {
+        padding-left: 0;
+    }
+    .main-footer {
+        padding: 60px 0 30px 0;
+    }
+    #grafiskdesignhjemmesideny-banner .content {
+        min-height: 600px;
+    }
+    .tabs-silder-1 .ui-slider-tabs-list-wrapper {
+        width: 55%;
+    }
+    .tabs-silder-2 .ui-slider-tabs-list-wrapper {
+        width: 81%;
+    }
+    .trip .regnskapsfringtjenesterny-bg-3 {
+        background-position: 57% 106%, 43% 106%, right bottom;
+        min-height: 453px;
+        background-size: 21%, 28%, 45% 61%;
+    }
+    .navbar-fixed-top .logo {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .navbar-header {
+        padding-bottom: 10px;
+    }
+    .navbar-nav {
+        background: rgba(0, 0, 0, .8);
+    }
+    header .search-top {
+        display: none;
+    }
+    header .search-mobile {
+        padding: 0 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: block;
+        form {
+            padding: 0 15px;
+            background: #0078ff;
+            @include border-radius(50px);
+        }
+        input[type="text"] {
+            width: calc( 100% - 30px);
+            float: left;
+            border: none;
+            height: 35px;
+            background: none;
+            color: #fff;
+        }
+        input[type="submit"] {
+            width: 30px;
+            float: left;
+            border: none;
+            height: 35px;
+            background-color: none;
+            background: url(../images/arrow.png) no-repeat center;
+        }
+        input[type="text"]::-webkit-input-placeholder {
+            /* WebKit, Blink, Edge */
+            color: #fff;
+            opacity: 1;
+        }
+        input[type="text"]:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #fff;
+            opacity: 1;
+        }
+        input[type="text"]::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #fff;
+            opacity: 1;
+        }
+        input[type="text"]:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #fff;
+            opacity: 1;
+        }
+    }
+    .nav>li:nth-child(6) {
+        display: block;
+    }
+    .logo {
+        width: 45%;
+        img {
+            width: 100%;
+        }
+    }
+    .timmer-outer {
+        img {
+            margin: 0 auto 0;
+            padding-top: 30px;
+        }
+    }
+    .TRIPLETEX ul li,
+    .TRIPLETEX ul li:nth-child(2n) {
+        width: 100%;
+    }
+    .app-content img {
+        margin-bottom: 30px;
+        clear: both;
+    }
+    .app-content .col-md-3 {
+        clear: both;
+    }
+    .regnskapsfringtjenesterny-bg-3 {
+        background: none;
+    }
+    .arbeid .port-right {
+        width: 100%;
+    }
+    .port-left {
+        height: auto !important;
+        margin-bottom: 30px;
+    }
+    #grafiskdesignhjemmesideny-banner .content h1 {
+        font: 900 45px "Roboto", sans-serif;
+    }
+    #grafiskdesignhjemmesideny-banner .content h1 span {
+        font: 900 45px "Roboto", sans-serif;
+    }
+    #grafiskdesignhjemmesideny-banner .content {
+        min-height: 465px;
+    }
+    .home #grafiskdesignhjemmesideny-banner .content {
+        min-height: 593px;
+    }
+    .trip .regnskapsfringtjenesterny-bg-3 {
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+    .car-content .content {
+        padding: 45px 30px;
+    }
+    .tabs-silder-2 .ui-slider-right-arrow {
+        right: -55px;
+    }
+    .tabs-silder-2 .ui-slider-left-arrow {
+        left: -55px;
+    }
+    .logo,
+    .navbar-fixed-top .logo {
+        width: 39%;
+        padding-top: 7px;
+    }
+}
+
+@media (max-width:620px) {
+    .header-banner .overlay h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-top .content form input[type="text"] {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-top .content form {
+        text-align: center;
+    }
+    .footer-top .content form input[type="submit"] {
+        float: none;
+    }
+    .main-footer .widget4 form {
+        margin: 25px 0;
+    }
+    .header-banner .overlay h2 {
+        font-size: 23px;
+    }
+    .head h2 {
+        font-size: 25px !important;
+    }
+    .footer-top .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .marketing-text h2 {
+        font: 700 20px "Raleway", sans-serif;
+    }
+    .marketing-text p {
+        font: 400 16px/26px "Roboto", sans-serif;
+    }
+    .body-text-list-section {
+        padding: 0 0 70px 0;
+    }
+    h4 {
+        font: 700 17px "Raleway", sans-serif;
+    }
+    .header-text-section {
+        min-height: 398px;
+    }
+    .head {
+        padding: 60px 0 60px 0 !important;
+    }
+    .regnskapsfringtjenesterny-bg-3 ul {
+        font-size: 16px;
+    }
+    .app-content .app-wraper {
+        padding-bottom: 45px;
+    }
+    #grafiskdesignhjemmesideny-banner .content {
+        min-height: 465px;
+    }
+    #grafiskdesignhjemmesideny-banner .content h2 {
+        font: 500 20px "Roboto", sans-serif;
+    }
+    #grafiskdesignhjemmesideny-banner .content h1 {
+        font: 900 30px "Roboto", sans-serif;
+    }
+    #grafiskdesignhjemmesideny-banner .content h1 span {
+        font: 900 30px "Roboto", sans-serif;
+    }
+    .tabs-silder-1 .ui-slider-tabs-list-wrapper {
+        width: 47%;
+    }
+    .ui-slider-tabs-list li a {
+        padding: 0 5px;
+        font: 400 14px/33px "Roboto", sans-serif;
+    }
+    .patner-content .content {
+        width: 50%;
+    }
+    .port-right {
+        .col-md-6 {
+            width: 50%;
+            float: left;
+        }
+    }
+    .car-content .owl-prev {
+        right: -35px;
+    }
+    .car-content .owl-next {
+        left: -35px;
+    }
+    .tabs-silder-2 .ui-slider-tabs-list-wrapper {
+        width: 70%;
+    }
+    .tabs-silder-2 .ui-slider-tabs-list li a {
+        font: 700 14px/33px "Roboto", sans-serif;
+    }
+    .tabs-silder-2 .button {
+        font: 700 16px "Roboto", sans-serif;
+    }
+    .blog-wraper {
+        text-align: center;
+        img {
+            display: initial;
+        }
+        .col-ss-4 {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .tabs-silder-2 .ui-slider-tabs-list li a {
+        font: 700 12px/33px "Roboto", sans-serif;
+    }
+    .logo {
+        width: 60%;
+        img {
+            width: 100%;
+            width: 190px;
+            height: 46px;
+        }
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 12px;
+    }
+    .app-button a.phone-button {
+        margin-bottom: 8px;
+    }
+    .port-right {
+        .col-md-6 {
+            width: 100%;
+            float: none;
+        }
+    }
+    .arbeid .port-right .col-md-6:nth-child(3),
+    .arbeid .port-right .col-md-6:nth-child(4) {
+        margin-bottom: 30px;
+    }
+    .car-content .content {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width:310px) {
+    .main-footer .widget1 img {
+        width: 100%;
+    }
+    .header-banner .overlay h2,
+    .head h2 {
+        font-size: 21px;
+    }
+    .footer-top .content p {
+        font-size: 18px;
+    }
+    .logo {
+        width: 60%;
+        img {
+            width: 100%;
+        }
+    }
+}
